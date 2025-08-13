@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "Gram Bistro",
+    "address": "Kyiv, Khreshchatyk 15",
+    "lat": 50.4501,
+    "lng": 30.5234,
+    "imageUrl": "https://example.com/restaurants/gram.jpg",
+    "openHours": "10:00-22:00",
+    "description": "Modern Ukrainian bistro with stylish interior.",
+    "cuisineType": "Ukrainian"
+  },
+  {
+    "id": 2,
+    "name": "La Piazza",
+    "address": "Kyiv, Lva Tolstoho 5",
+    "lat": 50.443,
+    "lng": 30.51,
+    "imageUrl": "https://example.com/restaurants/piazza.jpg",
+    "openHours": "11:00-23:00",
+    "description": "Authentic Italian pizza and pasta.",
+    "cuisineType": "Italian"
+  },
+  {
+    "id": 3,
+    "name": "Sushi World",
+    "address": "Kyiv, Bazhana 10",
+    "lat": 50.403,
+    "lng": 30.62,
+    "imageUrl": "https://example.com/restaurants/sushi.jpg",
+    "openHours": "12:00-21:00",
+    "description": "Fresh sushi and sashimi from Japanese chefs.",
+    "cuisineType": "Japanese"
+  },
+  {
+    "id": 4,
+    "name": "Burger Hub",
+    "address": "Kyiv, Velyka Vasylkivska 18",
+    "lat": 50.441,
+    "lng": 30.52,
+    "imageUrl": "https://example.com/restaurants/burgerhub.jpg",
+    "openHours": "09:00-22:00",
+    "description": "Juicy burgers with crispy fries.",
+    "cuisineType": "American"
+  },
+  {
+    "id": 5,
+    "name": "Green Bowl",
+    "address": "Kyiv, Pushkinska 12",
+    "lat": 50.445,
+    "lng": 30.5205,
+    "imageUrl": "https://example.com/restaurants/greenbowl.jpg",
+    "openHours": "08:00-20:00",
+    "description": "Healthy bowls and smoothies.",
+    "cuisineType": "Healthy"
+  }
+]

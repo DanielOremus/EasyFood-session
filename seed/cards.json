@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "userId": "1",
+    "last4": "2556",
+    "holderName": "Anna Smith",
+    "expMonth": "09",
+    "expYear": "26",
+    "brand": "Mastercard",
+    "isDefault": true
+  },
+  {
+    "id": "2",
+    "userId": "2",
+    "last4": "5678",
+    "holderName": "Max Kovalenko",
+    "expMonth": "05",
+    "expYear": "25",
+    "brand": "Visa",
+    "isDefault": true
+  },
+  {
+    "id": "3",
+    "userId": "3",
+    "last4": "9999",
+    "holderName": "Olya Ivanova",
+    "expMonth": "12",
+    "expYear": "27",
+    "brand": "Visa",
+    "isDefault": false
+  },
+  {
+    "id": "4",
+    "userId": "4",
+    "last4": "7777",
+    "holderName": "Roman Petrov",
+    "expMonth": "08",
+    "expYear": "24",
+    "brand": "Mastercard",
+    "isDefault": true
+  },
+  {
+    "id": "5",
+    "userId": "5",
+    "last4": "1111",
+    "holderName": "Irina Sergienko",
+    "expMonth": "03",
+    "expYear": "26",
+    "brand": "Visa",
+    "isDefault": false
+  }
+]

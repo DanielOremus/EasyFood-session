@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "userId": "1",
+    "restaurantId": "1",
+    "status": "pending",
+    "totalAmount": 175.0,
+    "deliveryAddress": "Kyiv, Khreshchatyk 20",
+    "paymentMethod": "Card",
+    "pointsUsed": 10,
+    "rewardApplied": "FIXED50",
+    "createdAt": "2025-07-12T10:00:00Z"
+  },
+  {
+    "id": "2",
+    "userId": "2",
+    "restaurantId": "2",
+    "status": "delivered",
+    "totalAmount": 130.0,
+    "deliveryAddress": "Kyiv, Lva Tolstoho 22",
+    "paymentMethod": "Cash",
+    "pointsUsed": 0,
+    "rewardApplied": null,
+    "createdAt": "2025-07-11T14:30:00Z"
+  },
+  {
+    "id": "3",
+    "userId": "3",
+    "restaurantId": "3",
+    "status": "preparing",
+    "totalAmount": 260.0,
+    "deliveryAddress": "Kyiv, Bazhana 45",
+    "paymentMethod": "Card",
+    "pointsUsed": 50,
+    "rewardApplied": "SUSHI30",
+    "createdAt": "2025-07-10T17:00:00Z"
+  },
+  {
+    "id": "4",
+    "userId": "4",
+    "restaurantId": "1",
+    "status": "cancelled",
+    "totalAmount": 0.0,
+    "deliveryAddress": "Kyiv, Pushkinska 3",
+    "paymentMethod": "Cash",
+    "pointsUsed": 0,
+    "rewardApplied": null,
+    "createdAt": "2025-07-09T12:15:00Z"
+  },
+  {
+    "id": "5",
+    "userId": "5",
+    "restaurantId": "2",
+    "status": "delivered",
+    "totalAmount": 240.0,
+    "deliveryAddress": "Kyiv, Velyka Vasylkivska 8",
+    "paymentMethod": "Card",
+    "pointsUsed": 20,
+    "rewardApplied": "FREEDRINK",
+    "createdAt": "2025-07-08T20:45:00Z"
+  }
+]

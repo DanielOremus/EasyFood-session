@@ -1,0 +1,47 @@
+[
+  {
+    "id": "1",
+    "dishId": "1",
+    "userId": "1",
+    "restaurantId": "1",
+    "rating": 4.5,
+    "comment": "Дуже смачний борщ!",
+    "createdAt": "2025-07-11T12:00:00Z"
+  },
+  {
+    "id": "2",
+    "dishId": "2",
+    "userId": "2",
+    "restaurantId": "1",
+    "rating": 4.0,
+    "comment": "Вареники чудові, але трохи пересолені.",
+    "createdAt": "2025-07-10T10:20:00Z"
+  },
+  {
+    "id": "3",
+    "dishId": "3",
+    "userId": "3",
+    "restaurantId": "2",
+    "rating": 5.0,
+    "comment": "Найкраща піца в місті!",
+    "createdAt": "2025-07-09T18:30:00Z"
+  },
+  {
+    "id": "4",
+    "dishId": "4",
+    "userId": "4",
+    "restaurantId": "3",
+    "rating": 3.5,
+    "comment": "Роли свіжі, але хотілось більше начинки.",
+    "createdAt": "2025-07-08T14:10:00Z"
+  },
+  {
+    "id": "5",
+    "dishId": "5",
+    "userId": "5",
+    "restaurantId": "3",
+    "rating": 5.0,
+    "comment": "Нігірі божественні!",
+    "createdAt": "2025-07-07T16:45:00Z"
+  }
+]

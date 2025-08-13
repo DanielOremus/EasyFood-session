@@ -1,0 +1,62 @@
+[
+  {
+    "title": "30% off Sushi",
+    "description": "Отримай знижку 30% на всі суші-страви.",
+    "discount": 0.3,
+    "pointsRequired": 50,
+    "code": "SUSHI30",
+    "type": "percentage",
+    "startDate": "2025-07-01T00:00:00Z",
+    "expireDate": "2025-07-31T23:59:59Z",
+    "applyCategoryId": 1,
+    "applySubcategoryId": 9
+  },
+  {
+    "title": "50 грн Off",
+    "description": "Отримай фіксовану знижку 50 грн на замовлення.",
+    "discount": 50.0,
+    "pointsRequired": 30,
+    "code": "FIXED50",
+    "type": "fixed",
+    "startDate": "2025-07-01T00:00:00Z",
+    "expireDate": "2025-07-31T23:59:59Z",
+    "applyCategoryId": null,
+    "applySubcategoryId": null
+  },
+  {
+    "title": "Free Drink",
+    "description": "Отримай безкоштовний напій при замовленні понад 200 грн.",
+    "discount": 1.0,
+    "pointsRequired": 70,
+    "code": "FREEDRINK",
+    "type": "free_item",
+    "startDate": "2025-07-05T00:00:00Z",
+    "expireDate": "2025-08-05T23:59:59Z",
+    "applyCategoryId": 2,
+    "applySubcategoryId": null
+  },
+  {
+    "title": "10% Healthy Bonus",
+    "description": "10% знижка на всі страви у Green Bowl.",
+    "discount": 0.1,
+    "pointsRequired": 20,
+    "code": "HEALTHY10",
+    "type": "percentage",
+    "startDate": "2025-07-10T00:00:00Z",
+    "expireDate": "2025-08-10T23:59:59Z",
+    "applyCategoryId": 1,
+    "applySubcategoryId": 7
+  },
+  {
+    "title": "Free Dessert",
+    "description": "Безкоштовний десерт при замовленні понад 300 грн.",
+    "discount": 1.0,
+    "pointsRequired": 100,
+    "code": "FREEDESSERT",
+    "type": "free_item",
+    "startDate": "2025-07-01T00:00:00Z",
+    "expireDate": "2025-09-01T23:59:59Z",
+    "applyCategoryId": 3,
+    "applySubcategoryId": null
+  }
+]

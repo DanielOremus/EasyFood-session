@@ -1,0 +1,62 @@
+[
+  {
+    "categoryId": 1,
+    "name": "Pizza"
+  },
+  {
+    "categoryId": 1,
+    "name": "Burger"
+  },
+  {
+    "categoryId": 1,
+    "name": "Salad"
+  },
+  {
+    "categoryId": 1,
+    "name": "Soup"
+  },
+  {
+    "categoryId": 1,
+    "name": "Grill"
+  },
+  {
+    "categoryId": 1,
+    "name": "Chicken"
+  },
+  {
+    "categoryId": 1,
+    "name": "Vegan"
+  },
+  {
+    "categoryId": 1,
+    "name": "Breakfast"
+  },
+  {
+    "categoryId": 1,
+    "name": "Sushi"
+  },
+  {
+    "categoryId": 2,
+    "name": "Smoothie"
+  },
+  {
+    "categoryId": 2,
+    "name": "Juice"
+  },
+  {
+    "categoryId": 2,
+    "name": "Coffee"
+  },
+  {
+    "categoryId": 3,
+    "name": "Cake"
+  },
+  {
+    "categoryId": 3,
+    "name": "Ice Cream"
+  },
+  {
+    "categoryId": 3,
+    "name": "Pastry"
+  }
+]

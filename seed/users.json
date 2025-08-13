@@ -1,0 +1,59 @@
+[
+  {
+    "id": "1",
+    "username": "AnnaSmith",
+    "email": "anna.smith@example.com",
+    "phone": "+380501234567",
+    "password": "anna123",
+    "avatarUrl": "https://example.com/avatars/anna.png",
+    "points": 120,
+    "created_at": "2025-07-01T10:30:00Z"
+  },
+  {
+    "id": "2",
+    "username": "MaxKovalenko",
+    "email": "max.kovalenko@example.com",
+    "phone": "+380931112233",
+    "password": "max456",
+    "avatarUrl": "https://example.com/avatars/max.png",
+    "points": 80,
+    "created_at": "2025-06-25T15:10:00Z"
+  },
+  {
+    "id": "3",
+    "username": "OlyaIvanova",
+    "email": "olya.ivanova@example.com",
+    "phone": "+380631234567",
+    "password": "olya789",
+    "avatarUrl": "https://example.com/avatars/olya.png",
+    "points": 45,
+    "created_at": "2025-07-10T11:00:00Z"
+  },
+  {
+    "id": "4",
+    "username": "RomanPetrov",
+    "email": "roman.petrov@example.com",
+    "phone": "+380672223344",
+    "password": "roman101",
+    "avatarUrl": "https://example.com/avatars/roman.png",
+    "points": 200,
+    "created_at": "2025-06-15T09:20:00Z"
+  },
+  {
+    "id": "5",
+    "username": "IrinaSergienko",
+    "email": "irina.sergienko@example.com",
+    "phone": "+380971234567",
+    "password": "irina202",
+    "avatarUrl": "https://example.com/avatars/irina.png",
+    "points": 15,
+    "created_at": "2025-07-05T14:45:00Z"
+  },
+  {
+    "username": "Admin",
+    "email": "admin@example.com",
+    "phone": "+380971234567",
+    "password": "admin",
+    "points": 1000
+  }
+]

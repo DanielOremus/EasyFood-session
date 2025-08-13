@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "userId": "1",
+    "address": "Kyiv, Khreshchatyk 20",
+    "lat": 50.4502,
+    "lng": 30.5236
+  },
+  {
+    "id": "2",
+    "userId": "2",
+    "address": "Kyiv, Lva Tolstoho 22",
+    "lat": 50.4425,
+    "lng": 30.5102
+  },
+  {
+    "id": "3",
+    "userId": "3",
+    "address": "Kyiv, Bazhana 45",
+    "lat": 50.4035,
+    "lng": 30.6202
+  },
+  {
+    "id": "4",
+    "userId": "4",
+    "address": "Kyiv, Pushkinska 3",
+    "lat": 50.4452,
+    "lng": 30.5209
+  },
+  {
+    "id": "5",
+    "userId": "5",
+    "address": "Kyiv, Velyka Vasylkivska 8",
+    "lat": 50.4408,
+    "lng": 30.5197
+  }
+]

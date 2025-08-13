@@ -31,7 +31,6 @@ class UserController {
       res.status(error.code || 500).json({ success: false, msg: error.message })
     }
   }
-  //TODO: add session auth
   static async updateUserById(req, res) {
     const errors = validationResult(req)
     if (!errors.isEmpty()) return res.status(400).json({ success: false, msg: errors.array() })

@@ -19,7 +19,7 @@ class SeedUploader {
   static __filename = fileURLToPath(import.meta.url)
   static __dirname = path.dirname(SeedUploader.__filename)
   static getFilePath(fileName) {
-    return path.join(SeedUploader.__dirname, `../seed/${fileName}`)
+    return path.join(SeedUploader.__dirname, `../../seed/${fileName}`)
   }
 
   static async uploadTable(entity, seedName) {

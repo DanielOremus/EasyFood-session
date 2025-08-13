@@ -13,7 +13,7 @@
     "dishId": "2",
     "quantity": 1,
     "price": 80.0,
-    "notes": ""
+    "notes": null
   },
   {
     "id": "3",
@@ -37,6 +37,6 @@
     "dishId": "3",
     "quantity": 2,
     "price": 130.0,
-    "notes": ""
+    "notes": null
   }
 ]

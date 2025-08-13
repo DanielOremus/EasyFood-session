@@ -9,6 +9,7 @@ const sessionStore = new SequelizeStore({
   db: sequelize,
   checkExpirationInterval: 24 * 3600 * 1000,
   expiration: SESSION_MAX_AGE,
+  tableName: "sessions",
 })
 
 export default session({

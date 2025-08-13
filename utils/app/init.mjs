@@ -17,11 +17,12 @@ const __dirname = import.meta.dirname
 export const initApp = async (app) => {
   await db.connect()
   createEntityAssociations()
-  // await syncTables()
+  // await initTables()
   // SeedUploader.uploadAll()
 
   app.set("views", path.join(__dirname, "../../views"))
   app.set("view engine", "ejs")
+  app.set("trust proxy", 1)
 
   //Helmet
   app.use(

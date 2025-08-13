@@ -1,3 +1,4 @@
+import { debugLog } from "../logger.mjs"
 import QueryParser from "./QueryParser.mjs"
 import { Op } from "sequelize"
 
@@ -39,7 +40,7 @@ class SelectionHelper {
           break
 
         default:
-          console.log(`Unsupported filterType: ${filterObj.filterType}`)
+          debugLog(`Unsupported filterType: ${filterObj.filterType}`)
       }
     }
     return { whereOptions, includeWhereOptions }
@@ -48,7 +49,7 @@ class SelectionHelper {
     actions.forEach((actionObj) => {
       switch (actionObj.type) {
         case "sort":
-          options.order = [...options.order, [actionObj.field, actionObj.order]]
+          options.order = [...(options.order ??= []), [actionObj.field, actionObj.order]]
           break
         case "skip":
           options.offset = actionObj.value
@@ -79,23 +80,24 @@ class SelectionHelper {
   }
   static applyFiltersSelection(reqQuery, fieldsConfig, filterOptions = {}) {
     const filters = QueryParser.parseFilters(reqQuery, fieldsConfig)
-    console.log("filters-----------------")
+    debugLog("filters-----------------")
 
-    console.log(filters)
-    let result
-    if (filters.length) result = this.applyFilters(filterOptions, [], filters)
-    return { filterOptions: result.whereOptions, includeFilterOptions: result.includeWhereOptions }
+    debugLog(filters)
+    let result = this.applyFilters(filterOptions, [], filters)
+
+    return {
+      filterOptions: result.whereOptions ?? {},
+      includeFilterOptions: result.includeWhereOptions || [],
+    }
   }
-  static applyActionsSelection(reqQuery) {
+  static applyActionsSelection(reqQuery, options = {}) {
     const actions = QueryParser.parseActions(reqQuery)
-    console.log("actions-----------------")
+    debugLog("actions-----------------")
 
-    console.log(actions)
+    debugLog(actions)
 
-    let actionsOptions = {}
-
-    if (actions.length) actionsOptions = this.applyActions(actionsOptions, actions)
-    return actionsOptions
+    if (actions.length) options = this.applyActions(options, actions)
+    return options
   }
 }
 

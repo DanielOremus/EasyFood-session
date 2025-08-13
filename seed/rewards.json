@@ -7,7 +7,7 @@
     "code": "SUSHI30",
     "type": "percentage",
     "startDate": "2025-07-01T00:00:00Z",
-    "expireDate": "2025-07-31T23:59:59Z",
+    "expireDate": "2025-08-31T23:59:59Z",
     "applyCategoryId": 1,
     "applySubcategoryId": 9
   },
@@ -19,7 +19,7 @@
     "code": "FIXED50",
     "type": "fixed",
     "startDate": "2025-07-01T00:00:00Z",
-    "expireDate": "2025-07-31T23:59:59Z",
+    "expireDate": "2025-08-31T23:59:59Z",
     "applyCategoryId": null,
     "applySubcategoryId": null
   },
@@ -31,19 +31,19 @@
     "code": "FREEDRINK",
     "type": "free_item",
     "startDate": "2025-07-05T00:00:00Z",
-    "expireDate": "2025-08-05T23:59:59Z",
+    "expireDate": "2025-08-31T23:59:59Z",
     "applyCategoryId": 2,
     "applySubcategoryId": null
   },
   {
     "title": "10% Healthy Bonus",
-    "description": "10% знижка на всі страви у Green Bowl.",
+    "description": "10% знижка на всі корисні страви.",
     "discount": 0.1,
     "pointsRequired": 20,
     "code": "HEALTHY10",
     "type": "percentage",
     "startDate": "2025-07-10T00:00:00Z",
-    "expireDate": "2025-08-10T23:59:59Z",
+    "expireDate": "2025-08-31T23:59:59Z",
     "applyCategoryId": 1,
     "applySubcategoryId": 7
   },

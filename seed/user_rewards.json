@@ -3,35 +3,35 @@
     "id": "1",
     "userId": "1",
     "rewardId": "2",
-    "claimed": true,
+    "isClaimed": true,
     "claimedDate": "2025-07-12T09:30:00Z"
   },
   {
     "id": "2",
     "userId": "3",
     "rewardId": "1",
-    "claimed": false,
+    "isClaimed": false,
     "claimedDate": null
   },
   {
     "id": "3",
     "userId": "5",
     "rewardId": "3",
-    "claimed": true,
+    "isClaimed": true,
     "claimedDate": "2025-07-08T20:00:00Z"
   },
   {
     "id": "4",
     "userId": "2",
     "rewardId": "4",
-    "claimed": false,
+    "isClaimed": false,
     "claimedDate": null
   },
   {
     "id": "5",
     "userId": "4",
     "rewardId": "5",
-    "claimed": true,
+    "isClaimed": true,
     "claimedDate": "2025-07-09T10:00:00Z"
   }
 ]

@@ -36,7 +36,7 @@ class CRUDManager {
         fieldsConfig,
         filters
       )
-      const actionsOptions = SelectionHelper.applyActionsSelection(reqQuery)
+      const optionsWithActions = SelectionHelper.applyActionsSelection(reqQuery, options)
       const count = await this.model.count({
         where: filterOptions,
         include: includeFilterOptions,
@@ -46,8 +46,7 @@ class CRUDManager {
         where: filterOptions,
         attributes: projection,
         include: [...includeFilterOptions, { ...populateParams }],
-        ...options,
-        ...actionsOptions,
+        ...optionsWithActions,
       })
 
       return { documents, count, page: reqQuery.page, perPage: reqQuery.perPage }

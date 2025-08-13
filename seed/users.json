@@ -54,6 +54,7 @@
     "email": "admin@example.com",
     "phone": "+380971234567",
     "password": "admin",
-    "points": 1000
+    "points": 1000,
+    "isAdmin": true
   }
 ]

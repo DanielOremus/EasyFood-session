@@ -36,6 +36,10 @@
     "name": "Sushi"
   },
   {
+    "categoryId": 1,
+    "name": "Dumplings"
+  },
+  {
     "categoryId": 2,
     "name": "Smoothie"
   },

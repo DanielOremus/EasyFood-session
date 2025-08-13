@@ -17,9 +17,9 @@
   },
   {
     "id": 2,
-    "name": "Cezar",
+    "name": "Varenyky",
     "restaurantId": 1,
-    "description": "Cezar salad.",
+    "description": "Dumplings with potatoes and onions.",
     "price": 80.0,
     "imageUrl": "https://example.com/dishes/varenyky.jpg",
     "kcal": 300,
@@ -28,7 +28,7 @@
     "carbs": 45,
     "fats": 8,
     "rating": 4.6,
-    "subcategoryId": "3",
+    "subcategoryId": "10",
     "isAvailable": true
   },
   {
@@ -49,7 +49,7 @@
   },
   {
     "id": 4,
-    "name": "Sushi",
+    "name": "California Roll",
     "restaurantId": 3,
     "description": "Crab meat, avocado, cucumber, rice.",
     "price": 150.0,
@@ -65,7 +65,7 @@
   },
   {
     "id": 5,
-    "name": "MegaBurger",
+    "name": "Salmon Nigiri",
     "restaurantId": 3,
     "description": "Fresh salmon on rice.",
     "price": 110.0,
@@ -76,7 +76,7 @@
     "carbs": 20,
     "fats": 5,
     "rating": 4.9,
-    "subcategoryId": "2",
+    "subcategoryId": "9",
     "isAvailable": true
   }
 ]
